@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp">
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="Holiday Request"
+    />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="Permission Request"
+    />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+           />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="Holiday Adjustment"
+    />
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="Loan Request"
+    />
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="Employee Update Data Request"
+    />
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="Graphical Report Chart"
+
+        />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/linechart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="Vacation Balance"
+
+        />
+
+
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barchart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+
+        />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>
